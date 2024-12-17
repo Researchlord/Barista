@@ -442,6 +442,7 @@ footer{
     background-color: transparent;
     padding:6px 20px;
     border: 1px solid white;
+    outline:none;
 }
 .contact-sub-wrapper input::placeholder{
     color:white;
