@@ -261,15 +261,23 @@
         </div>
         <p class="footer-p">How can we help you?</p>
         <input type="text" id="message" placeholder="Message">
-        <button type="submit" id="footer-btn">Send Message</button>
+        <button type="submit" id="footer-btn" onclick="openPopUp">Send Message</button>
         </div>
          <!--Pop up box->
-         <div class="popup">
+         <div class="pop-up" id="popup">
          <h2></h2>
          <p>Your details has been successfully Submitted . Thanks!</p>
-         <button type="button">OK</button>
-         
+         <button type="button" onclick="closePopup">OK</button>
          </div>
+     <script>
+         let popup = document.getElementById("popup");
+         function openPopUp(){
+         popup.ClassList.add("open-popup");
+         } 
+         function closePopUp(){
+         popup.ClassList.remove("close-popup");
+         } 
+     </script>
          <!--pop up box end-->
         <br>
         <section class="footer-last-wrapper">
