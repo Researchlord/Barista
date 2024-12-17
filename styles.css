@@ -447,6 +447,35 @@ footer{
 .contact-sub-wrapper input::placeholder{
     color:white;
 }
+/* Pop up*/
+.pop-up{
+width:400px;
+background:#fff;
+border-radius:6px;
+position:absolute;
+top:0;
+left:50%;
+transform:translate(-50%,-50%) scale(0.1);
+text-align:center;
+padding:0 30px 30px;
+color:black;
+visibility:hidden;
+ } 
+.pop-up h2{
+font-size:38px;
+font-weight:500;
+margin:20px 0 10px;
+}
+.pop-up button{
+    width:100%;
+    margin-top:50px;
+    Padding:10px 3px;
+    background:black;
+    color:white;
+    outline:none;
+    border-radius:4px;
+} 
+/* end of pop up*/
 .footer-p{
     margin-top: 10px;
     font-weight: light;
