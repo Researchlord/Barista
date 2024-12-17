@@ -460,7 +460,13 @@ text-align:center;
 padding:0 30px 30px;
 color:black;
 visibility:hidden;
+transition:transform 0.4s, top 0.4s;
  } 
+.open-popup{
+    Visibility:visible;
+    top:50%;
+    transform:translate(-50%,-50%) scale(1);
+} 
 .pop-up h2{
 font-size:38px;
 font-weight:500;
